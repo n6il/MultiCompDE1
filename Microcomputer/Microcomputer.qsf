@@ -37,7 +37,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone II"
-set_global_assignment -name DEVICE EP2C5T144C8
+set_global_assignment -name DEVICE EP2C20F484C7
 set_global_assignment -name TOP_LEVEL_ENTITY Microcomputer
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:55:48  OCTOBER 20, 2013"
@@ -50,68 +50,68 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
-set_location_assignment PIN_101 -to rxd1
-set_location_assignment PIN_103 -to txd1
-set_location_assignment PIN_104 -to rts1
+set_location_assignment PIN_F14 -to rxd1
+set_location_assignment PIN_G12 -to txd1
+set_location_assignment PIN_A13 -to rts1
 
-set_location_assignment PIN_99 -to rxd2
-set_location_assignment PIN_100 -to txd2
-set_location_assignment PIN_96 -to rts2
+set_location_assignment PIN_B13 -to rxd2
+set_location_assignment PIN_A14 -to txd2
+set_location_assignment PIN_B14 -to rts2
 
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to rxd1
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to rxd2
 
-set_location_assignment PIN_17 -to clk
-set_location_assignment PIN_144 -to n_reset
+set_location_assignment PIN_L1 -to clk
+set_location_assignment PIN_R22 -to n_reset
 
-set_location_assignment PIN_4 -to n_sRamWE
-set_location_assignment PIN_126 -to n_sRamCS
-set_location_assignment PIN_134 -to n_sRamOE
-set_location_assignment PIN_8 -to sramAddress[15]
-set_location_assignment PIN_30 -to sramAddress[14]
-set_location_assignment PIN_24 -to sramAddress[13]
-set_location_assignment PIN_28 -to sramAddress[12]
-set_location_assignment PIN_136 -to sramAddress[11]
-set_location_assignment PIN_132 -to sramAddress[10]
-set_location_assignment PIN_139 -to sramAddress[9]
-set_location_assignment PIN_142 -to sramAddress[8]
-set_location_assignment PIN_143 -to sramAddress[7]
-set_location_assignment PIN_141 -to sramAddress[6]
-set_location_assignment PIN_137 -to sramAddress[5]
-set_location_assignment PIN_133 -to sramAddress[3]
-set_location_assignment PIN_135 -to sramAddress[4]
-set_location_assignment PIN_129 -to sramAddress[2]
-set_location_assignment PIN_125 -to sramAddress[1]
-set_location_assignment PIN_121 -to sramAddress[0]
-set_location_assignment PIN_122 -to sramData[7]
-set_location_assignment PIN_120 -to sramData[6]
-set_location_assignment PIN_118 -to sramData[5]
-set_location_assignment PIN_114 -to sramData[4]
-set_location_assignment PIN_112 -to sramData[3]
-set_location_assignment PIN_113 -to sramData[2]
-set_location_assignment PIN_115 -to sramData[1]
-set_location_assignment PIN_119 -to sramData[0]
+set_location_assignment PIN_AA10 -to n_sRamWE
+set_location_assignment PIN_AB5 -to n_sRamCS
+set_location_assignment PIN_T8 -to n_sRamOE
+set_location_assignment PIN_T7 -to sramAddress[15]
+set_location_assignment PIN_R10 -to sramAddress[14]
+set_location_assignment PIN_U10 -to sramAddress[13]
+set_location_assignment PIN_Y10 -to sramAddress[12]
+set_location_assignment PIN_T11 -to sramAddress[11]
+set_location_assignment PIN_R11 -to sramAddress[10]
+set_location_assignment PIN_W11 -to sramAddress[9]
+set_location_assignment PIN_V11 -to sramAddress[8]
+set_location_assignment PIN_AB11 -to sramAddress[7]
+set_location_assignment PIN_AA11 -to sramAddress[6]
+set_location_assignment PIN_AB10 -to sramAddress[5]
+set_location_assignment PIN_AA5 -to sramAddress[3]
+set_location_assignment PIN_AB4 -to sramAddress[4]
+set_location_assignment PIN_AA4 -to sramAddress[2]
+set_location_assignment PIN_AB3 -to sramAddress[1]
+set_location_assignment PIN_AA3 -to sramAddress[0]
+set_location_assignment PIN_AB9 -to sramData[7]
+set_location_assignment PIN_AA9 -to sramData[6]
+set_location_assignment PIN_AB8 -to sramData[5]
+set_location_assignment PIN_AA8 -to sramData[4]
+set_location_assignment PIN_AB7 -to sramData[3]
+set_location_assignment PIN_AA7 -to sramData[2]
+set_location_assignment PIN_AB6 -to sramData[1]
+set_location_assignment PIN_AA6 -to sramData[0]
 
-set_location_assignment PIN_75 -to video
-set_location_assignment PIN_74 -to videoSync
-set_location_assignment PIN_87 -to ps2Data
-set_location_assignment PIN_86 -to ps2Clk
+set_location_assignment PIN_H12 -to video
+set_location_assignment PIN_H13 -to videoSync
+set_location_assignment PIN_J14 -to ps2Data
+set_location_assignment PIN_H15 -to ps2Clk
 
-set_location_assignment PIN_64 -to videoB0
-set_location_assignment PIN_63 -to videoB1
-set_location_assignment PIN_67 -to videoG0
-set_location_assignment PIN_65 -to videoG1
-set_location_assignment PIN_70 -to videoR0
-set_location_assignment PIN_69 -to videoR1
-set_location_assignment PIN_71 -to hSync
-set_location_assignment PIN_72 -to vSync
+set_location_assignment PIN_D11 -to videoB0
+set_location_assignment PIN_B10 -to videoB1
+set_location_assignment PIN_C10 -to videoG0
+set_location_assignment PIN_A8 -to videoG1
+set_location_assignment PIN_C9 -to videoR0
+set_location_assignment PIN_B7 -to videoR1
+set_location_assignment PIN_A11 -to hSync
+set_location_assignment PIN_B11 -to vSync
 
-set_location_assignment PIN_92 -to sdMISO
+set_location_assignment PIN_W20 -to sdMISO
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to sdMISO
-set_location_assignment PIN_94 -to sdSCLK
-set_location_assignment PIN_93 -to sdMOSI
-set_location_assignment PIN_97 -to sdCS
-set_location_assignment PIN_3 -to driveLED
+set_location_assignment PIN_V20 -to sdSCLK
+set_location_assignment PIN_Y20 -to sdMOSI
+set_location_assignment PIN_U20 -to sdCS
+set_location_assignment PIN_R20 -to driveLED
 
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to n_reset
 
